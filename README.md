@@ -38,7 +38,7 @@ Collaborated with the IT team and school staff to support smooth operations and 
 
 | Project | Description | Links |
 |---|---|---|
-| JKU Racing Team | As part of the IT team, I engineered and delivered core modules for the JKU Racing intranet, including Ticketing, Time Tracking, Meetings & Attendance, and Department Insights. I built the Spring Boot backend (REST APIs, scheduling, attendance logging, analytics) secured with OAuth2/OIDC JWT, and developed responsive Angular + PrimeNG frontends with dark mode, charts, real-time updates, and role-based admin tools. |  |
+| JKU Racing Team | As part of the IT team, I engineered and delivered core modules for the JKU Racing intranet, including Ticketing, Time Tracking, Meetings & Attendance, and Department Insights. I built the Spring Boot backend (REST APIs, scheduling, attendance logging, analytics) secured with OAuth2/OIDC JWT, and developed responsive Angular + PrimeNG frontends with dark mode, charts, real-time updates, and role-based admin tools. | [Team Site](https://jkuracing.at/) |
 | Sound Event Detection Pipeline | End-to-end SED pipeline with threshold tuning, per-class cost metrics, and reproducible training/eval in PyTorch Lightning. | [GitHub](https://github.com/dklingbeil/MLCP-Project) |
 | Image Classification Project | This CNN-based model classifies images into predefined categories. Built with PyTorch, the project covers dataset preparation, architecture design, training, and evaluation, resulting in a trained model ready for use. | [GitHub](https://github.com/dklingbeil/Image-Classification-Project) |
 
