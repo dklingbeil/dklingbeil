@@ -63,7 +63,7 @@ Collaborated with the IT team and school staff to support smooth operations and 
 ### Bachelor in Artificial Intelligence 
 *Johannes Kepler University*
 
-Relevant Coursework: 
+Relevant Coursework:\
 Machine Learning\
 Deep Learning\
 Data Science\
