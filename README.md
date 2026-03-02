@@ -64,12 +64,12 @@ Collaborated with the IT team and school staff to support smooth operations and 
 *Johannes Kepler University*
 
 Relevant Coursework: 
-Machine Learning
-Deep Learning
-Data Science
-Natural Language Processing
-Reinforcement Learning
-Multimedia Search and Retrieval
+Machine Learning\
+Deep Learning\
+Data Science\
+Natural Language Processing\
+Reinforcement Learning\
+Multimedia Search and Retrieval\
 
 ## 📞 Contact & Links
 
