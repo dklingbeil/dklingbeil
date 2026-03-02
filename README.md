@@ -69,7 +69,7 @@ Deep Learning\
 Data Science\
 Natural Language Processing\
 Reinforcement Learning\
-Multimedia Search and Retrieval\
+Multimedia Search and Retrieval
 
 ## 📞 Contact & Links
 
