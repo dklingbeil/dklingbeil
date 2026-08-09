@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="236" viewBox="0 0 900 236" role="img" aria-labelledby="title description">
+  <title id="title">David Klingbeil's education</title>
+  <desc id="description">A terminal card describing David Klingbeil's artificial intelligence degree and relevant coursework.</desc>
+
+  <rect x="0.5" y="0.5" width="899" height="235" rx="11" fill="#0b0e14" stroke="#2a3038"/>
+  <path d="M0.5 12a11 11 0 0 1 11-11h877a11 11 0 0 1 11 11v33H0.5z" fill="#161b22"/>
+  <rect x="0.5" y="44" width="899" height="1" fill="#2a3038"/>
+
+  <circle cx="22" cy="22.5" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="22.5" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="22.5" r="6" fill="#27c93f"/>
+
+  <g font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="450" y="27" text-anchor="middle" font-size="12.5" fill="#8b949e">dklingbeil@github: ~$ cat education.yml</text>
+    <text x="28" y="76" font-size="15" font-weight="700" fill="#3fb950">dklingbeil@github</text>
+    <text x="190" y="76" font-size="15" fill="#c9d1d9">:~$ cat education.yml</text>
+
+    <g font-size="14">
+      <text x="28" y="111" font-weight="700" fill="#58a6ff">degree:</text>
+      <text x="168" y="111" fill="#c9d1d9">BSc Artificial Intelligence</text>
+
+      <text x="28" y="136" font-weight="700" fill="#58a6ff">institution:</text>
+      <text x="168" y="136" fill="#c9d1d9">Johannes Kepler University Linz</text>
+
+      <text x="28" y="161" font-weight="700" fill="#58a6ff">period:</text>
+      <text x="168" y="161" fill="#c9d1d9">Oct 2023 — present</text>
+
+      <text x="28" y="186" font-weight="700" fill="#58a6ff">coursework:</text>
+      <text x="168" y="186" fill="#c9d1d9">Machine Learning · Deep Learning · Data Science · NLP</text>
+      <text x="168" y="211" fill="#c9d1d9">Reinforcement Learning · Multimedia Search and Retrieval</text>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="196" viewBox="0 0 900 196" role="img" aria-labelledby="title description">
+  <title id="title">Connect with David Klingbeil</title>
+  <desc id="description">A terminal card inviting conversations about applied machine learning, backend systems, and useful software.</desc>
+
+  <rect x="0.5" y="0.5" width="899" height="195" rx="11" fill="#0b0e14" stroke="#2a3038"/>
+  <path d="M0.5 12a11 11 0 0 1 11-11h877a11 11 0 0 1 11 11v33H0.5z" fill="#161b22"/>
+  <rect x="0.5" y="44" width="899" height="1" fill="#2a3038"/>
+
+  <circle cx="22" cy="22.5" r="6" fill="#ff5f56"/>
+  <circle cx="42" cy="22.5" r="6" fill="#ffbd2e"/>
+  <circle cx="62" cy="22.5" r="6" fill="#27c93f"/>
+
+  <g font-family="ui-monospace, 'SF Mono', SFMono-Regular, Menlo, Consolas, monospace">
+    <text x="450" y="27" text-anchor="middle" font-size="12.5" fill="#8b949e">dklingbeil@github: ~$ ./connect.sh</text>
+    <text x="28" y="76" font-size="15" font-weight="700" fill="#3fb950">dklingbeil@github</text>
+    <text x="190" y="76" font-size="15" fill="#c9d1d9">:~$ ./connect.sh</text>
+
+    <text x="28" y="115" font-size="14" fill="#c9d1d9">Interested in applied ML, backend systems, or useful software?</text>
+    <text x="28" y="142" font-size="14" fill="#58a6ff">→ Let’s build something thoughtful.</text>
+    <text x="28" y="173" font-size="13" font-weight="700" fill="#3fb950">ready</text>
+    <text x="78" y="173" font-size="13" fill="#8b949e">· use the contact shortcuts in the header ↑</text>
+  </g>
+</svg>
