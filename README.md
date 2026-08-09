@@ -16,13 +16,6 @@
 
 <img src="./assets/about-terminal.svg" alt="Terminal summary: David Klingbeil is an AI student and Intranet Developer focused on software engineering, applied machine learning, backend systems, and infrastructure" width="100%" loading="lazy">
 
-</div>
-
-<div align="center">
-
-<img src="https://www.gitskins.com/api/section/portrait?username=dklingbeil&amp;theme=github-dark&amp;style=terminal" alt="ASCII portrait of David Klingbeil in a GitHub Dark terminal" width="360" loading="lazy">
-
-</div>
 
 ## Experience
 
