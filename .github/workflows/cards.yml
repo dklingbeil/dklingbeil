@@ -1,0 +1,55 @@
+name: Refresh cards
+
+on:
+  schedule:
+    - cron: "17 4 * * *" # daily, 04:17 UTC
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths: ["scripts/**", "fonts/**", "assets/portrait.*", "data/query.graphql", ".github/workflows/cards.yml"]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: cards
+  cancel-in-progress: true
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Refresh contribution data
+        env:
+          # The default token sees public contributions only. To count private ones too, add a
+          # personal access token (read:user) as the PROFILE_TOKEN secret.
+          GH_TOKEN: ${{ secrets.PROFILE_TOKEN || github.token }}
+        run: |
+          gh api graphql -F login='${{ github.repository_owner }}' \
+            -f query="$(cat data/query.graphql)" > data/github.tmp
+          # Keep the old file if the API returned an error instead of data.
+          python -c "import json; json.load(open('data/github.tmp'))['data']['user']['contributionsCollection']"
+          mv data/github.tmp data/github.json
+
+      - name: Render cards
+        run: |
+          pip install --quiet fonttools brotli
+          python scripts/render_cards.py
+
+      - name: Commit
+        run: |
+          git add data/github.json cards
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Refresh cards"
+          git push
